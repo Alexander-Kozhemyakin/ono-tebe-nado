@@ -6,15 +6,16 @@
 }
 
 .header__menu {
-    padding-left: 20px;
+    padding-left: 26px;
 }
 
 .header__menu-list {
     display: flex;
+    padding-top: 2px;
 }
 
 .header__menu-list-item {
-    margin-right: 36px;
+    margin-right: 32px;
     list-style: circle;
     font-size: 18px;
     letter-spacing: 0.01em;
@@ -37,7 +38,7 @@
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    line-height: 24.3px;
+    line-height: 24px;
 }
   
 .header__address {
@@ -223,15 +224,14 @@
 .about {
     display: grid;
     grid-template-columns: min-content 1fr;
-    column-gap: 50px;
-    padding: 127px 50px 0 50px;
+    padding: 127px 24px 0;
 }
 
 .about__logo {
     display: flex;
     width: 240px;
     height: 240px;
-    margin: 53px 21px;
+    margin: 54px 72px 0 47px;
     border-radius: 50%;
     background: #000;
 }
@@ -244,7 +244,7 @@
 }
 
 .about__title {
-    margin-top: 153px;
+    margin-top: 156px;
     margin-bottom: 100px;
     font-weight: 700;
     font-size: 40px;
@@ -255,19 +255,20 @@
 .about__text {
     font-weight: 400;
     font-size: 20px;
-    padding-bottom: 27px;
-    line-height: normal;
+    padding-bottom: 24px;
+    line-height: 120%;
 }
 
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
-    padding: 163px 50px 88px;
+    padding: 156px 50px 88px;
 }
 
 .footer__menu{
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .footer__address-link {
@@ -279,7 +280,6 @@
 .footer__menu-list {
     text-align: center;
     list-style: none;
-    letter-spacing: 0.05em;
 }
   
 .footer__menu-link {
